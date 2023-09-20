@@ -1,3 +1,4 @@
+/* Null */
 a,
 a:visited {
   text-decoration: none;
@@ -11,6 +12,127 @@ ul li {
   list-style: none;
 }
 
+/* ---------------------------- */
 body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
 }
 
+.header {
+}
+.header-logo {
+  color: #2e2f42;
+  font-size: 18px;
+  font-family: 'Raleway';
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.16%;
+  letter-spacing: 0.54px;
+  word-wrap: break-word;
+}
+.header-logo span {
+  color: #4d5ae5;
+}
+.header-link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.5%;
+  letter-spacing: 0.32px;
+  word-wrap: break-word;
+}
+
+.contacts {
+}
+.contacts-mail,
+.contacts-tel {
+  color: #434455;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  line-height: 1.5%;
+  letter-spacing: 0.32px;
+  word-wrap: break-word;
+}
+
+.front {
+}
+.front-title {
+  color: white;
+  font-size: 56px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  line-height: 1.07%;
+  letter-spacing: 1.12px;
+  word-wrap: break-word;
+}
+.front-button {
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.5%;
+  letter-spacing: 0.64px;
+  word-wrap: break-word;
+}
+
+.quality-subtitle,
+.team-subtitle,
+.portfolio-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 1.2%;
+  letter-spacing: 0.4px;
+  word-wrap: break-word;
+}
+.quality-text,
+.team-text,
+.portfolio-text {
+  color: #434455;
+  font-size: 16px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  line-height: 1.5%;
+  letter-spacing: 0.32px;
+  word-wrap: break-word;
+}
+.quality-title,
+.team-title,
+.portfolio-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.11%;
+  letter-spacing: 0.72px;
+  word-wrap: break-word;
+}
+
+.quality {
+}
+.team {
+}
+.portfolio {
+}
+
+.footer {
+}
+.footer-logo {
+  color: #f4f4fd;
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.16%;
+  letter-spacing: 0.54px;
+  word-wrap: break-word;
+}
+.footer-logo span {
+  color: #4d5ae5;
+}
+.footer-text {
+}
