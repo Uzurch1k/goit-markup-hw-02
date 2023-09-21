@@ -47,12 +47,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.header-menu-link:hover {
+.header-menu-link:hover,
+:focus {
   color: #404bbf;
 }
-.active:active {
-  color: #404bbf;
-}
+
 /* Contacts */
 .header-contacts {
   font-style: normal;
@@ -68,8 +67,10 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-mail:active,
-.contacts-tel:active {
+.contacts-mail:focus,
+:hover,
+.contacts-tel:focus,
+:hover {
   color: #404bbf;
 }
 
