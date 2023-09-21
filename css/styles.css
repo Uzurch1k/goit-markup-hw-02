@@ -32,7 +32,6 @@ body {
   text-transform: uppercase;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  word-wrap: break-word;
 }
 .header-logo-span {
   color: #2e2f42;
@@ -44,11 +43,9 @@ body {
 .header-menu-link {
   color: #2e2f42;
   font-size: 16px;
-  font-family: Roboto;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.05em;
-  word-wrap: break-word;
 }
 .header-menu-link:hover {
   color: #404bbf;
@@ -62,14 +59,9 @@ body {
 }
 .contacts-mail,
 .contacts-tel {
-  color: #434455;
   font-size: 16px;
-  font-family: Roboto;
-  font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  word-wrap: break-word;
-  text-transform: none;
   font-style: normal;
 }
 .contacts-mail:hover,
@@ -79,10 +71,22 @@ body {
 
 /*---------------------------- Section 1 ----------------------------*/
 .fullscreen {
+  background-color: #2e2f42;
 }
 .fullscreen-title {
+  color: white;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: 0.05em;
 }
-.fullscreen-button {
+.fullscreen-btn {
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  cursor: pointer;
 }
 
 /*---------------------------- Section 2 ----------------------------*/
@@ -95,22 +99,45 @@ body {
 .description-item {
 }
 .description-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
 }
 .description-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*---------------------------- Section 3 ----------------------------*/
 .team {
+  background-color: #f4f4fd;
 }
 .team-title {
+  color: #2e2f42;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
 }
 .team-list {
 }
 .team-item {
 }
 .team-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
 }
 .team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*---------------------------- Section 4----------------------------*/
@@ -121,16 +148,37 @@ body {
 .portfolio-list {
 }
 .portfolio-subtitle {
+  color: #2e2f42;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.005em;
 }
 .portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 /*---------------------------- Footer ----------------------------*/
 .footer {
+  background-color: #2e2f42;
 }
 .footer-logo {
+  color: #4d5ae5;
+  font-size: 18px;
+  font-family: Raleway;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.17;
+  letter-spacing: 0.003em;
 }
 .footer-logo-span {
+  color: #f4f4fd;
 }
 .footer-text {
+	color: #F4F4FD;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
