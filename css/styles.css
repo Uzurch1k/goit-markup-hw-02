@@ -48,7 +48,7 @@ body {
   letter-spacing: 0.02em;
 }
 .header-menu-link:hover,
-:focus {
+.header-menu-link:focus {
   color: #404bbf;
 }
 
@@ -67,7 +67,7 @@ body {
   letter-spacing: 0.02em;
 }
 .contacts-data:hover,
-:focus {
+.contacts-data:focus {
   color: #404bbf;
 }
 
