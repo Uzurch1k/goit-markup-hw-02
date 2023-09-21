@@ -60,16 +60,13 @@ body {
 }
 .contacts-item {
 }
-.contacts-mail,
-.contacts-tel {
+.contacts-data {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-mail:focus,
-:hover,
-.contacts-tel:focus,
+.contacts-data:focus,
 :hover {
   color: #404bbf;
 }
@@ -120,6 +117,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*---------------------------- Section 3 ----------------------------*/
@@ -151,6 +149,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*---------------------------- Section 4----------------------------*/
@@ -178,6 +177,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /*---------------------------- Footer ----------------------------*/
