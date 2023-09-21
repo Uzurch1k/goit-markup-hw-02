@@ -50,6 +50,9 @@ body {
 .header-menu-link:hover {
   color: #404bbf;
 }
+.active:active {
+  color: #404bbf;
+}
 /* Contacts */
 .header-contacts {
   font-style: normal;
@@ -65,8 +68,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-mail:hover,
-.contacts-tel:hover {
+.contacts-mail:active,
+.contacts-tel:active {
   color: #404bbf;
 }
 
@@ -80,7 +83,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  text-align: cente;
+  text-align: center;
 }
 .fullscreen-btn {
   background-color: #4d5ae5;
@@ -168,7 +171,7 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 0.005em;
+  letter-spacing: 0.02em;
 }
 .portfolio-text {
   font-size: 16px;
