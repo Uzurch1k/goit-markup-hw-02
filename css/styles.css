@@ -18,6 +18,26 @@ body {
   color: #434455;
   background-color: #ffffff;
 }
+/*----------------------------General class----------------------------*/
+.title {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: capitalize;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.subtitle {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
 
 /*----------------------------Header----------------------------*/
 .header {
@@ -100,22 +120,28 @@ body {
 }
 .description-title {
 }
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
 .description-list {
 }
 .description-item {
 }
 .description-subtitle {
   color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .description-text {
   color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /*---------------------------- Section 3 ----------------------------*/
@@ -124,12 +150,6 @@ body {
 }
 .team-title {
   color: #2e2f42;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
 }
 .team-list {
 }
@@ -138,16 +158,9 @@ body {
 }
 .team-subtitle {
   color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .team-text {
   color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /*---------------------------- Section 4----------------------------*/
@@ -155,27 +168,14 @@ body {
 }
 .portfolio-title {
   color: #2e2f42;
-  font-size: 36px;
-  font-weight: 700;
-  text-transform: capitalize;
-  line-height: 1.11;
-  letter-spacing: 0.02em;
-  text-align: center;
 }
 .portfolio-list {
 }
 .portfolio-subtitle {
   color: #2e2f42;
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .portfolio-text {
   color: #434455;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
 
 /*---------------------------- Footer ----------------------------*/
@@ -196,7 +196,4 @@ body {
 }
 .footer-text {
   color: #f4f4fd;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
 }
