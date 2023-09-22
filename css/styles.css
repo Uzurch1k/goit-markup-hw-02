@@ -1,4 +1,4 @@
-/* Null */
+/*----------------------------Null----------------------------*/
 a,
 a:visited {
   text-decoration: none;
@@ -51,23 +51,21 @@ body {
 .header-menu-link:focus {
   color: #404bbf;
 }
-
-/* Contacts */
 .header-contacts {
   font-style: normal;
 }
-.contacts-list {
+.header-contacts-list {
 }
-.contacts-item {
+.header-contacts-item {
 }
-.contacts-data {
+.header-contacts-data {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.contacts-data:hover,
-.contacts-data:focus {
+.header-contacts-data:hover,
+.header-contacts-data:focus {
   color: #404bbf;
 }
 
@@ -114,10 +112,10 @@ body {
   letter-spacing: 0.02em;
 }
 .description-text {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /*---------------------------- Section 3 ----------------------------*/
@@ -146,10 +144,10 @@ body {
   letter-spacing: 0.02em;
 }
 .team-text {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /*---------------------------- Section 4----------------------------*/
@@ -174,10 +172,10 @@ body {
   letter-spacing: 0.02em;
 }
 .portfolio-text {
+  color: #434455;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
 /*---------------------------- Footer ----------------------------*/
